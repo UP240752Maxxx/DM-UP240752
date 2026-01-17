@@ -1,0 +1,37 @@
+¿qué es html y para que sirve?
+es un lenguaje para estructurar el contenido de una página web
+
+¿cuál es la diferencia entre html, css y javascrip?
+HTML: Define el DOM (Document Object Model) y el significado semántico de los datos.
+CSS: Lenguaje de hojas de estilo declarativo que gestiona el layout, la tipografía y la estética visual.
+JAVASCRIP: Lenguaje de programación de alto nivel que permite la lógica de negocio en el cliente, manipulación dinámica del DOM y gestión de eventos. 
+
+¿por qué html no es un lenguaje de programación?
+porque carece de estructuras de control de flujo(bucles, condicionales) ni capacidad de procesamiento de datos, está orientado a la descripción de datos y estructuras
+
+¿cuál es la estructura básica de un archivo html?
+HTML 5 debe4 seguir la siguiente jerarquía de nodos:
+<!DOCTYPE html>
+<html lang="es"> <head> <meta charset="UTF-8"> <title>Título del Documento</title> </head> <body> </body> </html>
+
+¿qué es una etiqueta en html? especifica y cual es la etiqueta de cierre apertura y contenido?
+Un "Elemento" es la unidad lógica completa, mientras que la "Etiqueta" es su representación sintáctica. Se compone de:
+Etiqueta de Apertura (<tag>): Delimita el inicio del elemento y contiene sus atributos.
+Contenido (Inner HTML): La información o nodos hijos alojados en el elemento.
+Etiqueta de Cierre (</tag>): Indica la terminación del ámbito del elemento mediante el uso de una barra inclinada (slash).
+
+¿qué es un atributo en html y para qué sirve?
+son metadatos asignados a un elemento que proporcionan información adicional o modifican su comportamiento predeterminado, De declaran siempre en la etiqueta de apertura
+
+¿qué es el atributo class?
+Identificador no único utilizado para agrupar múltiples elementos bajo una misma categoría semántica o de estilo (selectores CSS)
+
+¿qué es el atributo ID?
+Identificador unívoco global. Se utiliza para referenciar un elemento específico en el DOM para manipulación mediante scripts o para anclajes de hipertexto
+
+¿cómo se escribe un atributo? Ejemplo y estructura
+Los atributos se definen mediante pares de clave-valor dentro de la etiqueta.
+ESTRUCTURA: nombre_del_atributo="valor_del_atributo"
+EJEMPLO: <img src="imagen.jpg" alt="Descripción de imagen" class="img-fluid">
+'src', 'alt' y 'class' son los nombres de los atributos.
+Los valores deben estar encerrados estrictamente entre comillas dobles (") o simples (').
